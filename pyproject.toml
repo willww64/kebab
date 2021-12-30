@@ -24,7 +24,7 @@ kubernetes = { version = "^12.0.0a1", optional = true }
 [tool.poetry.extras]
 k8s = ["kubernetes"]
 aws = ["boto3"]
-ali = ["oss2", "alibaba-cloud-p qython-sdk-v2"]
+ali = ["oss2", "alibaba-cloud-python-sdk-v2"]
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0.1"
